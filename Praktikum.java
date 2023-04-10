@@ -27,7 +27,7 @@ import java.util.Scanner;
         }
 
         public static void isPrintDate(String strDate, int inYear) {
-            System.out.println("В этом году профессиональный праздник будет: "+ strDate+inYear);
+            System.out.println("В этом году профессиональный праздник: "+ strDate+inYear);
         }
     }
 
