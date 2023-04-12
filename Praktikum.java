@@ -19,13 +19,11 @@ import java.util.Scanner;
         }
 
         public static boolean isLeapYear(int year) {
-            // здесь нужно определить, является ли переданный год високосным
             if ((year % 4==0)&&(!(year%100==0)|| (year % 400 ==0))) {
                     return true;
             }
             return false;
         }
-
         public static void isPrintDate(String strDate, int inYear) {
             System.out.println("В этом году профессиональный праздник будет: "+ strDate+inYear);
         }
